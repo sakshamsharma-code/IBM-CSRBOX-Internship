@@ -57,7 +57,7 @@ The model is deployed in a clean and responsive **Streamlit** interface, where u
 
 ### 1. Clone the Repository
 ```bash
-git clone 
+git clone https://github.com/sakshamsharma-code/IBM-CSRBOX-Internship.git
 cd restaurant-review-sentiment-analyzer
 ```
 
@@ -104,16 +104,16 @@ pip install -r requirements.txt
 
 ## 📁 Files Description
 
-| File/Folder                     | Description |
-|--------------------------------|-------------|
-| `train_model.py`               | Trains and saves SVM model and TF-IDF vectorizer |
-| `app.py`                       | Streamlit app for review input and sentiment analysis |
-| `sentiment_model.pkl`          | Trained SVM sentiment classification model |
-| `tfidf_vectorizer.pkl`         | Fitted TF-IDF vectorizer for input transformation |
-| `Restaurant_Reviews.tsv`       | Dataset used for training (tab-separated) |
-| `review_log.csv`               | (Optional) Saved user review logs |
-| `Sentiment_Analysis_of_Restaurants.ipynb` | Jupyter notebook used for analysis and prototyping |
-| `requirements.txt`             | Python package dependencies |
+| File/Folder                          | Description |
+|-------------------------------------|-------------|
+| `train_model.py`                    | Trains and saves SVM model and TF-IDF vectorizer |
+| `app.py`                            | Streamlit app for review input and sentiment analysis |
+| `sentiment_model.pkl`               | Trained SVM sentiment classification model |
+| `tfidf_vectorizer.pkl`              | Fitted TF-IDF vectorizer for input transformation |
+| `Restaurant_Reviews.tsv`            | Dataset used for training the model (tab-separated format) |
+| `review_log.csv`                    | (Optional) Log of user-submitted reviews with sentiment |
+| `Sentiment_Analysis_of_Restaurants.ipynb` | Jupyter notebook used for exploration and prototyping |
+| `requirements.txt`                  | Python dependencies needed to run the app |
 
 ---
 
