@@ -130,7 +130,7 @@ pip install -r requirements.txt
 
 ## 🙋‍♂️ Author
 
-Developed By Saksham Sharma 
+Developed By **Saksham Sharma** and members of Team **Syntax Squad**
 > 👨‍💻 Project submitted for the **IBM SkillsBuild Internship Program**
 
 ---
